@@ -45,5 +45,19 @@ nav img {
 
 .landing-title {
     font-family: 'Yellowtail';
-    font-size: 6rem;
 }
+
+/* If the screen size is 600px wide or less, set the font-size of title to 8rem */
+@media screen and (min-width: 601px) {
+    .landing-title {
+        font-size: 8rem;
+    }
+}
+  
+/* If the screen size is 600px wide or less, set the font-size of title to 6rem */
+@media screen and (max-width: 600px) {
+    .landing-title {
+        font-size: 6rem;
+    }
+}
+
