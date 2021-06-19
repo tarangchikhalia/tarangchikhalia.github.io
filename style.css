@@ -10,12 +10,22 @@ body {
     font-family: 'Fira Code', monospace;
 }
 
-.navbar {
+nav {
     display: block;
     z-index: 9999;
 }
 
+nav img {
+    width: 28px;
+}
+
 .landing {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.landing div {
     position: absolute;
     left: 50%;
     top: 50%;
