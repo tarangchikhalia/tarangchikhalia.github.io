@@ -1,0 +1,29 @@
+
+/* 
+font-family: 'Fira Code', monospace;
+font-family: 'Yellowtail', cursive; 
+*/
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Fira Code', monospace;
+}
+
+.navbar {
+    display: block;
+    z-index: 9999;
+}
+
+.landing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.landing-title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 6rem;
+}
