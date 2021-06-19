@@ -5,8 +5,13 @@ font-family: 'Yellowtail', cursive;
 */
 
 @font-face {
-    font-family: 'Fira Code';
-    src: url(fonts/Fira_Code/FiraCode-VariableFont_wght.ttf);
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
 @font-face {
@@ -17,7 +22,7 @@ font-family: 'Yellowtail', cursive;
 body {
     background-color: white;
     color: black;
-    font-family: 'Fira Code';
+    font-family: 'Poppins-SemiBold';
 }
 
 nav {
